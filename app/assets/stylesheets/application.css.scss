@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.background_img {
+    height: 700px;
+    background: linear-gradient(180deg,rgba(2,9,23,.25) 0,#020917 90%);//, url('https://solomid-resources.s3.amazonaws.com/content/image/07ef10b2-b633-4d46-90ee-70719f7b8df4') center center; opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //-webkit-background-size: cover;
+    position: relative;
+    transition: opacity .5s;
+    background-position: 50%;
+}
+
+.background2 {
+    position: absolute;
+    height: 700px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    position: relative;
+    transition: opacity .3s;
+    background-position: 50%;
+    z-index: -1;
+    top: 0;
+}
+
+.retard {
+    width: 100%;
+    background-color: rgba(2,9,23,.95);
+    opacity: 1;
+    z-index: 11;
+    top: 0;
+    position: fixed;
+    animation: header_fadeIn .5s;
+}
